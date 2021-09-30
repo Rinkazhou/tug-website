@@ -47,7 +47,7 @@ const data = [
     name: '代晓磊',
     avatar: '',
     company: '360',
-    title: '数据库运维专家',
+    title: '360 数据库运维高级专家，TUG 华北区 Leader',
     links: [
       {
         name: '写冲突场景下的悲观/乐观事务模型选择',
@@ -60,6 +60,70 @@ const data = [
       {
         name: '记一次 Lightning 导入失败导致的 TiDB 集群重启失败事故处理',
         href: 'https://asktug.com/t/topic/69826',
+      },
+       {
+        name: 'TiCDC 使用心得',
+        href: 'https://asktug.com/t/topic/69259',
+      },
+      {
+        name: 'TiCDC 应用场景解析',
+        href: 'https://asktug.com/t/topic/152954',
+      },
+      {
+        name: '关于 TiDB 性能优化的一些思考',
+        href: 'https://asktug.com/t/topic/153160',
+      },
+        {
+        name: 'TiDB SQL 自动重试调研',
+        href: 'https://asktug.com/t/topic/122843',
+      },
+    ],
+  },
+  {
+    name: '王天宜',
+    avatar: '',
+    company: 'PingCAP',
+    title: 'TiDB 社区部门架构师',
+    links: [
+      {
+        name: 'Flink + TiDB，体验实时数仓之美',
+        href: 'https://asktug.com/t/topic/182835',
+      },
+      {
+        name: 'Flink 最佳实践之 通过 TiCDC 将 TiDB 数据流入 Flink',
+        href: 'https://asktug.com/t/topic/68884',
+      },
+      {
+        name: 'Flink 最佳实践之使用 Canal 同步 MySQL 数据至 TiDB',
+        href: 'https://asktug.com/t/topic/68731',
+      },
+       {
+        name: 'TiDB 监控整合方案',
+        href: 'https://asktug.com/t/topic/93040',
+      },
+      {
+        name: '构建实时数仓 - 当 TiDB 遇见 Pravega',
+        href: 'https://asktug.com/t/topic/92873',
+      },
+      {
+        name: '如何使用 minio 进行 BR 备份',
+        href: 'https://asktug.com/t/topic/153129',
+      },
+        {
+        name: '如何在 Kubernetes 上部署 TiDB-Operator （上）',
+        href: 'https://asktug.com/t/topic/68208',
+      },
+      {
+        name: '如何在 Kubernetes 上部署 TiDB-Operator （下）',
+        href: 'https://asktug.com/t/topic/68209',
+      },
+      {
+        name: '如何多个 TiDB 集群共用一个 Grafana',
+        href: 'https://asktug.com/t/topic/68177',
+      },
+        {
+        name: '通过 ProxySQL 在 TiDB 上实现 SQL 的规则化路由',
+        href: 'https://asktug.com/t/topic/95252',
       },
     ],
   },
@@ -180,6 +244,74 @@ const data = [
       {
         name: 'TiDB在X86和ARM混合平台下的离线部署和升级',
         href: 'https://asktug.com/t/topic/152905',
+      },
+    ],
+  },
+    {
+    name: '魏建强',
+    avatar: '',
+    company: '竞技世界',
+    title: 'DBA',
+    links: [
+      {
+        name: '生产环境 TiDB V5.0.3 集群部署',
+        href: 'https://asktug.com/t/topic/153455',
+      },
+      {
+        name: 'TiDB 如何做到无限扩展和保证节点 id 唯一',
+        href: 'https://asktug.com/t/topic/153451',
+      },
+      {
+        name: 'TiDB 5.0 VS MySQL 8.0 性能对比测试',
+        href: 'https://asktug.com/t/topic/153456',
+      },
+      {
+        name: 'TiDB 集群 TiKV 节点内存占用较高问题排查',
+        href: 'https://asktug.com/t/topic/153457',
+      },
+      {
+        name: 'TiDB集群之中控不可用，怎么办？',
+        href: 'https://asktug.com/t/topic/153562',
+      },
+    ],
+  },
+    {
+    name: '邓刚',
+    avatar: '',
+    company: '英特尔数据中心与AI事业部',
+    title: '应用工程师',
+    links: [
+      {
+        name: 'TiDB 多Socket 服务器性能扩展问题分析',
+        href: 'https://asktug.com/t/topic/95867',
+      },
+      {
+        name: 'TiDB 性能优化实践',
+        href: 'https://asktug.com/t/topic/95731',
+      },
+      {
+        name: 'TiDB 多Socket 服务器性能扩展问题分析-续',
+        href: 'https://asktug.com/t/topic/123320',
+      },
+    ],
+  },
+    {
+    name: '孙晓光',
+    avatar: '',
+    company: 'PingCAP',
+    title: 'Community Development 团队负责人，TUG 顾问团成员',
+    links: [
+      {
+        name: '【PingCAP DevCon 2021】TIDB x Flink原生实时计算',
+        href: 'https://www.bilibili.com/video/BV1tb4y1z7PY',
+      },
+      {
+        name: '带着问题读 TiDB 源码：Hive 元数据使用 TiDB 启动报错',
+        href: 'https://asktug.com/t/topic/153499',
+      },
+      {
+        name: '端到端的实时计算：TiDB + Flink 最佳实践',
+        href: 'https://asktug.com/t/topic/182780',
       },
     ],
   },
